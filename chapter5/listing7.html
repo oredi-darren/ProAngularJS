@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Example</title>
+    <script src="../lib/angular-1.3.0-beta.6/angular.js"></script>
+    <script type="text/javascript">
+        function printMessage(unknownObject) {
+            if(angular.isFunction(unknownObject))
+                unknownObject();
+            else
+                console.log(unknownObject);
+            return "Hello " + name + ".";
+        }
+
+        var variable1 = function sayHello() {
+            console.log("Hello");
+        }
+
+        var variable2 = "Goodbye!";
+        printMessage(variable1);
+        printMessage(variable2);
+    </script>
+</head>
+<body>
+    This is a simple example
+</body>
+</html>

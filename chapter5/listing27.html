@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Example</title>
+    <script src="../lib/angular-1.3.0-beta.6/angular.js"></script>
+    <script type="text/javascript">
+        var myData1 = {
+            name: "Darren",
+            weather: "Sunny"
+        };
+        var myData2 = {
+            name: "Darren",
+            weather: "Sunny"
+        };
+        var myData3 = myData2;
+
+        console.log("myData1 == myData2: " + (myData1 == myData2));
+        console.log("myData2 == myData3: " + (myData2 == myData3));
+        console.log("myData1 === myData2: " + (myData1 === myData2));
+        console.log("myData2 === myData3: " + (myData2 === myData3));
+        console.log("angular.equals(myData1, myData2): " + angular.equals(myData1, myData2));
+        console.log("angular.equals(myData2, myData3): " + angular.equals(myData2, myData3));
+    </script>
+</head>
+<body>
+    This is a simple example
+</body>
+</html>

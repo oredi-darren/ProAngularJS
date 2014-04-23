@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Example</title>
+    <script src="../lib/angular-1.3.0-beta.6/angular.js"></script>
+    <script type="text/javascript">
+        var myData = {
+            name: "Darren"
+        };
+        console.log("Pre set Var: " + myData.weather);
+        console.log("Pre set Prop: " + ("weather" in myData));
+        myData.weather = "Sunny";
+        console.log("Post set Var: " + myData.weather);
+        console.log("Post set Prop: " + ("weather" in myData));
+        myData.weather = null;
+        console.log("Pre null Var: " + myData.weather);
+        console.log("Post null Prop: " + ("weather" in myData));
+
+    </script>
+</head>
+<body>
+    This is a simple example
+</body>
+</html>
