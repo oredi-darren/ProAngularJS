@@ -4,7 +4,7 @@
 angular.module("sportsStore")
     .constant("dataUrl", "http://localhost:5500/products")
     .constant("orderUrl", "http://localhost:5500/orders")
-    .controller("sportsStoreCtrl", function($scope, $http, dataUrl, orderUrl, cart) {
+    .controller("sportsStoreCtrl", function($scope, $http, $location, dataUrl, orderUrl, cart) {
         $scope.data = {};
         $http.get(dataUrl)
             .success(function(data) {
@@ -23,9 +23,9 @@ angular.module("sportsStore")
                     cart.getProducts().length = 0;
                 })
                 .error(function(error) {
-                    $scope.data.orderError = error;
+                    $scope.data.orderError = "Error: " + error;
                 })
-                .then(function() {
+                .finally(function() {
                     $location.path("complete");
                 });
         };
