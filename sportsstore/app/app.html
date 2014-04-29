@@ -43,7 +43,7 @@
         <cart-summary />
     </div>
     <div class="alert alert-danger" ng-show="data.error">
-        Error ({{ data.error.status }}). The product data was not loaded.
+        Error ({{ data.status }}: {{ data.error }}). The product data was not loaded.
         <a href="app.html">Click here to try again</a>
     </div>
     <ng-view />
