@@ -5,8 +5,8 @@ angular.module("sportsStoreAdmin")
     .constant("authUrl", "https://api.parse.com/1/login")
     .constant("ordersUrl", "https://api.parse.com/1/classes/Orders")
     .run(function ($http) {
-        $http.defaults.headers.common["X-Parse-Application-Id"] = "oOANAcbXl5SNeeDjSJ9qKWYeixVQkTVdKhMDdcpI";
-        $http.defaults.headers.common["X-Parse-REST-API-Key"] = "i0lEyAUKNtUYVqlvZB97PgWMFjtOBNpAxsxeU8Fn";
+        $http.defaults.headers.common["X-Parse-Application-Id"] = "";
+        $http.defaults.headers.common["X-Parse-REST-API-Key"] = "";
     })
     .controller("authCtrl", function($scope, $http, $location, authUrl) {
         $scope.authenticate = function(user, pass) {
