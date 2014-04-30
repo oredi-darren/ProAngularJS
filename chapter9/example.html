@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>AngularJS Demo</title>
+    <script src="../lib/angular-1.3.0-beta.6/angular.js"></script>
+    <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="services.js"></script>
+    <script src="filters.js"></script>
+    <script src="directives.js"></script>
+    <script src="controllers.js"></script>
+    <script>
+        var myApp = angular.module("exampleApp", [ "exampleApp.Services", "exampleApp.Filters", "exampleApp.Directives", "exampleApp.Controllers" ])
+                .constant("startTime", new Date().toLocaleTimeString())
+                .config(function(startTime) {
+                    console.log("Main module config:" + startTime);
+                })
+                .run(function(startTime) {
+                    console.log("Main module run:" + startTime);
+                });
+    </script>
+</head>
+<body>
+    <div class="panel">
+        <div class="page-header">
+            <h3>AngularJS App</h3>
+            <h4 ng-controller="dayCtrl" highlight="Wednesday">Today is {{ day || "(unknown)" | dayName }}</h4>
+            <h4 ng-controller="tomorrowCtrl">Tomorrow is {{ day || "(unknown)" | dayName }}</h4>
+        </div>
+    </div>
+</body>
+</html>
