@@ -4,8 +4,8 @@
 angular.module("sportsStoreAdmin")
     .constant("productUrl", "https://api.parse.com/1/classes/Products/")
     .run(function ($http) {
-        $http.defaults.headers.common["X-Parse-Application-Id"] = "oOANAcbXl5SNeeDjSJ9qKWYeixVQkTVdKhMDdcpI";
-        $http.defaults.headers.common["X-Parse-REST-API-Key"] = "i0lEyAUKNtUYVqlvZB97PgWMFjtOBNpAxsxeU8Fn";
+        $http.defaults.headers.common["X-Parse-Application-Id"] = "";
+        $http.defaults.headers.common["X-Parse-REST-API-Key"] = "";
     })
     .controller("productCtrl", function($scope, $http, $resource, productUrl) {
         $scope.$on("sessionToken", function (sessionToken) {
