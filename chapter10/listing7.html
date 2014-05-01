@@ -21,7 +21,23 @@
 <body>
     <div id="todoPanel" class="panel" ng-controller="defaultCtrl">
         <h3 class="panel-header">To Do List</h3>
-        Data items will go here...
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Action</th>
+                    <th>Done</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in todos">
+                    <td>{{ $index + 1 }}</td>
+                    <td ng-repeat="prop in item">
+                        {{ prop }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
