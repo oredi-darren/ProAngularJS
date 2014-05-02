@@ -53,10 +53,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="item in todos" ng-class="settings.Even" >
+                <tr ng-repeat="item in todos" ng-class-even="settings.Even" ng-class-odd="settings.Odd" >
                     <td>{{ $index + 1 }}</td>
                     <td>{{ item.action }}</td>
-                    <td ng-style="{ 'background-color': settings.Odd }">{{ item.complete }}</td>
+                    <td>{{ item.complete }}</td>
                 </tr>
             </tbody>
         </table>
