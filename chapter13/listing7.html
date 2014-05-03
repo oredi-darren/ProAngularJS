@@ -7,14 +7,22 @@
     <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="stylesheet" />
     <script>
         angular.module("exampleApp", [])
-                .controller("simpleCtrl", function($scope) {
+                .controller("simpleCtrl", function($scope, $rootScope) {
                     $scope.addresses = {};
+                    $scope.$on("zipCodeUpdated", function(event, args) {
+                        $scope[args.type] = args.zipCode;
+                    });
+
                     $scope.setAddress = function(type, zip) {
+                        $rootScope.$broadcast("zipCodeUpdated", {
+                            type: type,
+                            zipCode: zip
+                        });
                         console.log("Type: " + type + " " + zip);
                         $scope.addresses[type] = zip;
                     };
                     $scope.copyAddress = function() {
-                        $scope.shippingZip = $scope.billingZip;
+                        $scope.zip = $scope.billingZip;
                     };
                 });
     </script>
