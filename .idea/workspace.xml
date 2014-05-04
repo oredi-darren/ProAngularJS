@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfe5166c-36cf-42e1-bf54-d0025b5f9c6e" name="Default" comment="Completed Chapter 15 Creating Custom Directives">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/._jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jquery/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing20.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter15/listing9.html" />
+    <list default="true" id="cfe5166c-36cf-42e1-bf54-d0025b5f9c6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter16/listing9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProAngularJS.iws" />
@@ -58,19 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chapter11/listing9.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing1.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing10.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing11.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing12.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing13.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing14.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing15.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing16.html" />
-        <option value="$PROJECT_DIR$/chapter12/listing17.html" />
-        <option value="$PROJECT_DIR$/chapter14/listing2.html" />
-        <option value="$PROJECT_DIR$/chapter14/listing3.html" />
-        <option value="$PROJECT_DIR$/chapter14/listing4.html" />
         <option value="$PROJECT_DIR$/chapter14/listing5.html" />
         <option value="$PROJECT_DIR$/chapter14/listing6.html" />
         <option value="$PROJECT_DIR$/chapter14/listing7.html" />
@@ -109,6 +89,19 @@
         <option value="$PROJECT_DIR$/chapter15/listing18.html" />
         <option value="$PROJECT_DIR$/chapter15/listing19.html" />
         <option value="$PROJECT_DIR$/chapter15/listing20.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing5.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing4.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing3.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing2.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing6.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing7.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing8.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing9.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing10.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing12.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing13.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing14.html" />
+        <option value="$PROJECT_DIR$/chapter16/listing11.html" />
       </list>
     </option>
   </component>
@@ -204,6 +197,20 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="chapter16" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProAngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProAngularJS" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="chapter15" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -249,11 +256,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter16" />
       <recent name="$PROJECT_DIR$/chapter15" />
       <recent name="$PROJECT_DIR$/chapter14" />
       <recent name="$PROJECT_DIR$/chapter13" />
       <recent name="$PROJECT_DIR$/Chapter12" />
-      <recent name="$PROJECT_DIR$/sportsstore/app/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sportsstore/app" />
@@ -443,7 +450,7 @@
       <workItem from="1399101368600" duration="2880000" />
       <workItem from="1399114011035" duration="13138000" />
       <workItem from="1399209288106" duration="312000" />
-      <workItem from="1399209997492" duration="5971000" />
+      <workItem from="1399209997492" duration="10397000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Chapter 2">
       <created>1398184240102</created>
@@ -485,11 +492,15 @@
       <created>1399128937389</created>
       <updated>1399128937389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Completed Chapter 15 Creating Custom Directives">
+      <created>1399218519335</created>
+      <updated>1399218519335</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55784000" />
+    <option name="totallyTimeSpent" value="60210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="91" width="1342" height="728" extended-state="0" />
@@ -503,19 +514,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40600315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26527572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26527572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -559,104 +570,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter12/listing11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/listing12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="660">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/listing13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="540">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/listing14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="660">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/listing15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="615">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter12/listing17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.125" vertical-offset="87" max-vertical-offset="645">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.083334" vertical-offset="274" max-vertical-offset="855">
-          <caret line="44" column="68" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.083334" vertical-offset="274" max-vertical-offset="855">
-          <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="855">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.458333" vertical-offset="334" max-vertical-offset="915">
-          <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.958333" vertical-offset="334" max-vertical-offset="915">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.583333" vertical-offset="244" max-vertical-offset="825">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.083334" vertical-offset="349" max-vertical-offset="930">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/listing9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.708334" vertical-offset="379" max-vertical-offset="1035">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter14/listing10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.375" vertical-offset="330" max-vertical-offset="1035">
@@ -886,15 +799,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07745267" vertical-offset="0" max-vertical-offset="675">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="675">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter15/listing20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1095">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing15.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32874355" vertical-offset="154" max-vertical-offset="735">
+        <state vertical-scroll-proportion="-8.958333" vertical-offset="130" max-vertical-offset="735">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -902,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28399312" vertical-offset="0" max-vertical-offset="660">
+        <state vertical-scroll-proportion="-4.5833335" vertical-offset="55" max-vertical-offset="660">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding />
         </state>
@@ -910,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90877795" vertical-offset="42" max-vertical-offset="660">
+        <state vertical-scroll-proportion="-22.0" vertical-offset="42" max-vertical-offset="660">
           <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
@@ -918,24 +839,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing12.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75268817" vertical-offset="0" max-vertical-offset="585">
+        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="585">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter15/listing20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18817204" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter15/listing11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5645161" vertical-offset="0" max-vertical-offset="1110">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1110">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.583333" vertical-offset="34" max-vertical-offset="1230">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51206434" vertical-offset="64" max-vertical-offset="1245">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="915">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9583333" vertical-offset="25" max-vertical-offset="1020">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="150" max-vertical-offset="915">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9583333" vertical-offset="670" max-vertical-offset="1020">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.849866" vertical-offset="557" max-vertical-offset="930">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24128686" vertical-offset="0" max-vertical-offset="373">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/listing13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2761394" vertical-offset="542" max-vertical-offset="915">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding />
         </state>
       </provider>
