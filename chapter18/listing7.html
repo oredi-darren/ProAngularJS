@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Services and Modules</title>
+    <script src="../lib/angular-1.3.0-beta.7/angular.js"></script>
+    <script src="listing4.js"></script>
+    <script src="listing6.js"></script>
+    <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", ['customDirectives', 'customServices'])
+            .controller("defaultCtrl", function ($scope, logService) {
+                    $scope.data = {
+                        cities: ['London', 'New York', 'Paris'],
+                        totalClicks: 0
+                    };
+
+                    $scope.$watch('data.totalClicks', function (newVal) {
+                        logService.log("Total click count: " + newVal);
+                    });
+            });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+        <div class="btn-group" tri-button counter="data.totalClicks" source="data.cities">
+            <button class="btn btn-default" ng-repeat="city in data.cities">
+                {{ city }}
+            </button>
+        </div>
+        <h5>Total Clicks: {{ data.totalClicks }}</h5>
+    </div>
+</body>
+</html>
