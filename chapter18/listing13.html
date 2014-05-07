@@ -4,11 +4,14 @@
     <title>Services and Modules</title>
     <script src="../lib/angular-1.3.0-beta.7/angular.js"></script>
     <script src="listing8.js"></script>
-    <script src="listing6.js"></script>
+    <script src="listing12.js"></script>
     <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="stylesheet" />
     <script>
         angular.module("exampleApp", ['customDirectives', 'customServices'])
+            .config(function (logServiceProvider) {
+                logServiceProvider.debugEnabled(true).messageCounterEnabled(false);
+            })
             .controller("defaultCtrl", function ($scope, logService) {
                     $scope.data = {
                         cities: ['London', 'New York', 'Paris'],
