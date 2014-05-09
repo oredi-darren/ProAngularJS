@@ -1,8 +1,27 @@
 /**
  * Created by dseet on 5/9/2014.
  */
-angular.module("exampleApp", ["increment", "ngResource"])
+angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
     .constant("baseUrl", "https://api.parse.com/1/classes/Products/")
+    .config(function ($routeProvider, $locationProvider) {
+        $locationProvider.html5Mode(true);
+
+        $routeProvider.when("/ProAngularJS/chapter22/list", {
+            templateUrl: "/ProAngularJS/chapter22/listing7.html"
+        });
+
+        $routeProvider.when("/ProAngularJS/chapter22/edit", {
+            templateUrl: "/ProAngularJS/chapter22/editorView.html"
+        });
+
+        $routeProvider.when("/ProAngularJS/chapter22/create", {
+            templateUrl: "/ProAngularJS/chapter22/editorView.html"
+        });
+
+        $routeProvider.otherwise({
+            templateUrl: "/ProAngularJS/chapter22/listing7.html"
+        });
+    })
     .config(function ($httpProvider) {
         $httpProvider.defaults.headers.common["X-Parse-Application-Id"] = "oXF8UFASovDbMzm7NvfC9YUfzulg0euATKnlLj6d";
         $httpProvider.defaults.headers.common["X-Parse-REST-API-Key"] = "m4zKi6c9bY8m1K32u2Qgihd4kEMmREwDdDnG5mIS";
@@ -19,8 +38,7 @@ angular.module("exampleApp", ["increment", "ngResource"])
             };
         });
     })
-    .controller("defaultCtrl", function($scope, $http, $resource, baseUrl) {
-        $scope.displayMode = "list";
+    .controller("defaultCtrl", function($scope, $http, $resource, $location, baseUrl) {
         $scope.currentProduct = null;
         $scope.productsResource = $resource(baseUrl + ":id", { id: "@objectId" }, {
             query: {
@@ -43,7 +61,7 @@ angular.module("exampleApp", ["increment", "ngResource"])
 
         $scope.updateProduct = function (product) {
             angular.copy(product).$update().then(function() {
-                $scope.displayMode = "list";
+                $location.path("/ProAngularJS/chapter22/list");
             });
         };
 
@@ -51,13 +69,13 @@ angular.module("exampleApp", ["increment", "ngResource"])
             var newProduct = new $scope.productsResource(product);
             newProduct.$save().then(function (response) {
                 $scope.products.push(angular.extend(newProduct, product));
-                $scope.displayMode = "list";
+                $location.path("/ProAngularJS/chapter22/list");
             });
         };
 
-        $scope.editOrCreateProduct = function (product) {
-            $scope.currentProduct = product || {};
-            $scope.displayMode = "edit";
+        $scope.editProduct = function (product) {
+            $scope.currentProduct = product;
+            $location.path("/ProAngularJS/chapter22/edit");
         };
 
         $scope.saveEdit = function (product) {
@@ -66,6 +84,7 @@ angular.module("exampleApp", ["increment", "ngResource"])
             } else {
                 $scope.createProduct(product);
             }
+            $scope.currentProduct = {};
         };
 
         $scope.cancelEdit = function () {
@@ -73,7 +92,7 @@ angular.module("exampleApp", ["increment", "ngResource"])
                 $scope.currentProduct.$get();
             }
             $scope.currentProduct = {};
-            $scope.displayMode = "list";
+            $location.path("/ProAngularJS/chapter22/list");
         }
 
         $scope.listProducts();

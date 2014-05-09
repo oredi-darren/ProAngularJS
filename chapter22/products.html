@@ -4,16 +4,16 @@
     <title>Products</title>
     <script src="../lib/angular-1.3.0-beta.7/angular.js"></script>
     <script src="../lib/angular-1.3.0-beta.7/angular-resource.js"></script>
+    <script src="../lib/angular-1.3.0-beta.7/angular-route.js"></script>
     <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../lib/bootstrap-3.1.1-dist/css/bootstrap-theme.css" rel="stylesheet" />
-    <script src="products.js"></script>
+    <script src="listing4.js"></script>
     <script src="increment.js"></script>
 </head>
 <body ng-controller="defaultCtrl">
-    <div class="panel panel-primary">
-        <h3 class="panel-heading">Products</h3>
-        <ng-include src="'tableView.html'" ng-show="displayMode == 'list'"></ng-include>
-        <ng-include src="'editorView.html'" ng-show="displayMode == 'edit'"></ng-include>
-    </div>
+<div class="panel panel-primary">
+    <h3 class="panel-heading">Products</h3>
+    <div ng-view></div>
+</div>
 </body>
 </html>
