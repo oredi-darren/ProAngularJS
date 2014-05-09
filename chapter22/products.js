@@ -7,7 +7,7 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
         $locationProvider.html5Mode(true);
 
         $routeProvider.when("/ProAngularJS/chapter22/list", {
-            templateUrl: "/ProAngularJS/chapter22/listing7.html"
+            templateUrl: "/ProAngularJS/chapter22/tableView.html"
         });
 
         $routeProvider.when("/ProAngularJS/chapter22/edit", {
@@ -19,7 +19,7 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
         });
 
         $routeProvider.otherwise({
-            templateUrl: "/ProAngularJS/chapter22/listing7.html"
+            templateUrl: "/ProAngularJS/chapter22/tableView.html"
         });
     })
     .config(function ($httpProvider) {
