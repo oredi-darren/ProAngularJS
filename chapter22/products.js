@@ -10,11 +10,15 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
             templateUrl: "/ProAngularJS/chapter22/tableView.html"
         });
 
-        $routeProvider.when("/ProAngularJS/chapter22/edit", {
+        $routeProvider.when("/ProAngularJS/chapter22/edit/:id", {
             templateUrl: "/ProAngularJS/chapter22/editorView.html"
         });
 
-        $routeProvider.when("/ProAngularJS/chapter22/create", {
+        $routeProvider.when("/ProAngularJS/chapter22/edit/:id/:data*", {
+            templateUrl: "/ProAngularJS/chapter22/editorView.html"
+        });
+
+        $routeProvider.when("/ProAngularJS/chapter22/create/", {
             templateUrl: "/ProAngularJS/chapter22/editorView.html"
         });
 
@@ -38,8 +42,21 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
             };
         });
     })
-    .controller("defaultCtrl", function($scope, $http, $resource, $location, baseUrl) {
+    .controller("defaultCtrl", function($scope, $http, $resource, $location, $route, $routeParams, baseUrl) {
         $scope.currentProduct = null;
+
+        $scope.$on("$routeChangeSuccess", function () {
+            if($location.path().indexOf("/edit/") == 0) {
+                var id = $routeParams["id"];
+                for (var i = 0; i < $scope.products.length; i++) {
+                    if($scope.products[i].objectId == id) {
+                        $scope.currentProduct = $scope.products[i];
+                        break;
+                    }
+                }
+            }
+        });
+
         $scope.productsResource = $resource(baseUrl + ":id", { id: "@objectId" }, {
             query: {
                 method: "GET", isArray: true, transformResponse: function(data, headers) {
@@ -71,11 +88,6 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
                 $scope.products.push(angular.extend(newProduct, product));
                 $location.path("/ProAngularJS/chapter22/list");
             });
-        };
-
-        $scope.editProduct = function (product) {
-            $scope.currentProduct = product;
-            $location.path("/ProAngularJS/chapter22/edit");
         };
 
         $scope.saveEdit = function (product) {
