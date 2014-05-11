@@ -3,6 +3,16 @@
  */
 angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
     .constant("baseUrl", "https://api.parse.com/1/classes/Products/")
+    .factory("productsResource", function ($resource, baseUrl) {
+        return $resource(baseUrl + ":id", { id: "@objectId" }, {
+            query: {
+                method: "GET", isArray: true, transformResponse: function(data, headers) {
+                    return JSON.parse(data).results;
+                }
+            },
+            update: { method: "PUT" }
+        });
+    })
     .config(function ($routeProvider, $locationProvider) {
         $locationProvider.html5Mode(true);
 
@@ -17,7 +27,13 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
         });
 
         $routeProvider.otherwise({
-            templateUrl: "/ProAngularJS/chapter22/tableView.html"
+            templateUrl: "/ProAngularJS/chapter22/tableView.html",
+            controller: "tableCtrl",
+            resolve: {
+                data: function(productsResource) {
+                    return productsResource.query();
+                }
+            }
         });
     })
     .config(function ($httpProvider) {
@@ -36,70 +52,45 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
             };
         });
     })
-    .controller("defaultCtrl", function($scope, $http, $resource, $location, $route, $routeParams, baseUrl) {
+    .controller("defaultCtrl", function($scope, $location, $routeParams, productsResource) {
+        $scope.data = {};
         $scope.currentProduct = null;
-
-        $scope.$on("$routeChangeSuccess", function () {
-            if($location.path().indexOf("/ProAngularJS/chapter22/edit/") == 0) {
-                var id = $routeParams["id"];
-                for (var i = 0; i < $scope.products.length; i++) {
-                    if($scope.products[i].objectId == id) {
-                        $scope.currentProduct = $scope.products[i];
-                        break;
-                    }
-                }
-            }
-        });
-
-        $scope.productsResource = $resource(baseUrl + ":id", { id: "@objectId" }, {
-            query: {
-                method: "GET", isArray: true, transformResponse: function(data, headers) {
-                    return JSON.parse(data).results;
-                }
-            },
-            update: { method: "PUT" }
-        });
-
-        $scope.listProducts = function() {
-            $scope.products = $scope.productsResource.query();
-        };
 
         $scope.deleteProduct = function (product) {
             product.$delete().then(function() {
-                $scope.products.splice($scope.products.indexOf(product), 1);
+                $scope.data.products.splice($scope.data.products.indexOf(product), 1);
             });
         };
 
         $scope.createProduct = function (product) {
-            var newProduct = new $scope.productsResource(product);
+            var newProduct = new productsResource(product);
             newProduct.$save().then(function (response) {
-                $scope.products.push(angular.extend(newProduct, product));
+                $scope.data.products.push(angular.extend(newProduct, product));
                 $location.path("/ProAngularJS/chapter22/list");
             });
         };
 
-        $scope.listProducts();
+    })
+    .controller("tableCtrl", function ($scope, $location, $route, data) {
+        $scope.data.products = data;
+        $scope.refreshProducts = function() {
+            $route.reload();
+        }
     })
     .controller("editCtrl", function ($scope, $routeParams, $location) {
         $scope.currentProduct = null;
 
-        $scope.$on("$routeChangeSuccess", function () {
-            if($location.path().indexOf("/ProAngularJS/chapter22/edit/") == 0) {
-                var id = $routeParams["id"];
-                for (var i = 0; i < $scope.products.length; i++) {
-                    if($scope.products[i].objectId == id) {
-                        $scope.currentProduct = $scope.products[i];
-                        break;
-                    }
+        if($location.path().indexOf("/ProAngularJS/chapter22/edit/") == 0) {
+            var id = $routeParams["id"];
+            for (var i = 0; i < $scope.data.products.length; i++) {
+                if($scope.data.products[i].objectId == id) {
+                    $scope.currentProduct = $scope.data.products[i];
+                    break;
                 }
             }
-        });
+        }
 
         $scope.cancelEdit = function () {
-            if($scope.currentProduct && $scope.currentProduct.$get) {
-                $scope.currentProduct.$get();
-            }
-            $scope.currentProduct = {};
             $location.path("/ProAngularJS/chapter22/list");
         }
 
