@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="308cad68-a780-4f88-a911-9196b4ba2005" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter22/products.js" afterPath="$PROJECT_DIR$/chapter22/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter22/tableView.html" afterPath="$PROJECT_DIR$/chapter22/tableView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter23/editorView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter23/increment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter23/products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter23/products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter23/tableView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProAngularJS.iws" />
@@ -57,11 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter22/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3900156" vertical-offset="1331" max-vertical-offset="1972">
-              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1331" max-vertical-offset="1972">
+              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter23/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38699186" vertical-offset="0" max-vertical-offset="615">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editorView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter23/editorView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter23/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chapter19/listing8.html" />
-        <option value="$PROJECT_DIR$/chapter19/listing11.html" />
         <option value="$PROJECT_DIR$/chapter19/listing12.html" />
         <option value="$PROJECT_DIR$/chapter19/listing13.html" />
         <option value="$PROJECT_DIR$/chapter19/listing14.html" />
@@ -141,6 +172,8 @@
         <option value="$PROJECT_DIR$/chapter22/products.html" />
         <option value="$PROJECT_DIR$/chapter22/tableView.html" />
         <option value="$PROJECT_DIR$/chapter22/products.js" />
+        <option value="$PROJECT_DIR$/chapter23/products.js" />
+        <option value="$PROJECT_DIR$/chapter23/products.html" />
       </list>
     </option>
   </component>
@@ -208,6 +241,20 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="chapter23" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProAngularJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProAngularJS" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="chapter22" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -256,11 +303,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\chapter23" />
       <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\chapter22" />
       <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\chapter21" />
       <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\chapter20" />
       <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\chapter19" />
-      <recent name="$PROJECT_DIR$/chapter19" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dseet\IdeaProjects\ProAngularJS\sportsstore\app\controllers" />
@@ -477,7 +524,7 @@
       <workItem from="1399503594839" duration="15489000" />
       <workItem from="1399588168644" duration="18076000" />
       <workItem from="1399846845592" duration="35000" />
-      <workItem from="1399846898619" duration="3939000" />
+      <workItem from="1399846898619" duration="4366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with chapter 1 completed">
       <created>1398157020694</created>
@@ -591,11 +638,15 @@
       <created>1399848737104</created>
       <updated>1399848737104</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Completed Chapter 22 Services for Views">
+      <created>1399850858338</created>
+      <updated>1399850858338</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151309000" />
+    <option name="totallyTimeSpent" value="151736000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -664,7 +715,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Initialized SportsStore" />
     <MESSAGE value="Complete initial store functinos" />
     <MESSAGE value="Complete navigation and checkout" />
     <MESSAGE value="Partial development of Orders and Administration Screen" />
@@ -689,7 +739,8 @@
     <MESSAGE value="Complete Chapter 22 Services for Views listing 6 fixed typos" />
     <MESSAGE value="Complete Chapter 22 Services for Views listing 10" />
     <MESSAGE value="Complete Chapter 22 Services for Views listing 11 create editCtrl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Chapter 22 Services for Views listing 11 create editCtrl" />
+    <MESSAGE value="Completed Chapter 22 Services for Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Chapter 22 Services for Views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,30 +748,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter21/listing18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter22/tableView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="612">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter22/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter22/products.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="1972">
@@ -1058,8 +1085,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter22/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3900156" vertical-offset="1331" max-vertical-offset="1972">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1331" max-vertical-offset="1972">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter23/editorView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter23/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter23/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38699186" vertical-offset="0" max-vertical-offset="615">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
