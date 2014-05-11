@@ -6,20 +6,14 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
     .config(function ($routeProvider, $locationProvider) {
         $locationProvider.html5Mode(true);
 
-        $routeProvider.when("/ProAngularJS/chapter22/list", {
-            templateUrl: "/ProAngularJS/chapter22/tableView.html"
-        });
-
         $routeProvider.when("/ProAngularJS/chapter22/edit/:id", {
-            templateUrl: "/ProAngularJS/chapter22/editorView.html"
-        });
-
-        $routeProvider.when("/ProAngularJS/chapter22/edit/:id/:data*", {
-            templateUrl: "/ProAngularJS/chapter22/editorView.html"
+            templateUrl: "/ProAngularJS/chapter22/editorView.html",
+            controller: "editCtrl"
         });
 
         $routeProvider.when("/ProAngularJS/chapter22/create/", {
-            templateUrl: "/ProAngularJS/chapter22/editorView.html"
+            templateUrl: "/ProAngularJS/chapter22/editorView.html",
+            controller: "editCtrl"
         });
 
         $routeProvider.otherwise({
@@ -46,7 +40,7 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
         $scope.currentProduct = null;
 
         $scope.$on("$routeChangeSuccess", function () {
-            if($location.path().indexOf("/edit/") == 0) {
+            if($location.path().indexOf("/ProAngularJS/chapter22/edit/") == 0) {
                 var id = $routeParams["id"];
                 for (var i = 0; i < $scope.products.length; i++) {
                     if($scope.products[i].objectId == id) {
@@ -76,16 +70,41 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
             });
         };
 
-        $scope.updateProduct = function (product) {
-            angular.copy(product).$update().then(function() {
-                $location.path("/ProAngularJS/chapter22/list");
-            });
-        };
-
         $scope.createProduct = function (product) {
             var newProduct = new $scope.productsResource(product);
             newProduct.$save().then(function (response) {
                 $scope.products.push(angular.extend(newProduct, product));
+                $location.path("/ProAngularJS/chapter22/list");
+            });
+        };
+
+        $scope.listProducts();
+    })
+    .controller("editCtrl", function ($scope, $routeParams, $location) {
+        $scope.currentProduct = null;
+
+        $scope.$on("$routeChangeSuccess", function () {
+            if($location.path().indexOf("/ProAngularJS/chapter22/edit/") == 0) {
+                var id = $routeParams["id"];
+                for (var i = 0; i < $scope.products.length; i++) {
+                    if($scope.products[i].objectId == id) {
+                        $scope.currentProduct = $scope.products[i];
+                        break;
+                    }
+                }
+            }
+        });
+
+        $scope.cancelEdit = function () {
+            if($scope.currentProduct && $scope.currentProduct.$get) {
+                $scope.currentProduct.$get();
+            }
+            $scope.currentProduct = {};
+            $location.path("/ProAngularJS/chapter22/list");
+        }
+
+        $scope.updateProduct = function (product) {
+            angular.copy(product).$update().then(function() {
                 $location.path("/ProAngularJS/chapter22/list");
             });
         };
@@ -98,14 +117,4 @@ angular.module("exampleApp", ["increment", "ngResource", "ngRoute"])
             }
             $scope.currentProduct = {};
         };
-
-        $scope.cancelEdit = function () {
-            if($scope.currentProduct && $scope.currentProduct.$get) {
-                $scope.currentProduct.$get();
-            }
-            $scope.currentProduct = {};
-            $location.path("/ProAngularJS/chapter22/list");
-        }
-
-        $scope.listProducts();
     });
