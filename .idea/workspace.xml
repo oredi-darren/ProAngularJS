@@ -89,8 +89,8 @@
       <file leaf-file-name="components.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter24/components.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6594324" vertical-offset="166" max-vertical-offset="816">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37562606" vertical-offset="166" max-vertical-offset="816">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -525,7 +525,7 @@
       <workItem from="1399503594839" duration="15489000" />
       <workItem from="1399588168644" duration="18076000" />
       <workItem from="1399846845592" duration="35000" />
-      <workItem from="1399846898619" duration="8659000" />
+      <workItem from="1399846898619" duration="8729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with chapter 1 completed">
       <created>1398157020694</created>
@@ -671,11 +671,15 @@
       <created>1399937283558</created>
       <updated>1399937283558</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Chapter 24 Services for Provision and Injection and completed listing 5">
+      <created>1399937614677</created>
+      <updated>1399937614677</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156029000" />
+    <option name="totallyTimeSpent" value="156099000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -744,7 +748,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Completed Chapter 10 Using Binding and Template Directives" />
     <MESSAGE value="Initialized Chapter 11 Using Element and Event Directives" />
     <MESSAGE value="Completed Chapter 11 Using Element and Event Directives up to listing 6" />
     <MESSAGE value="Completed Chapter 11 Using Element and Event Directives" />
@@ -769,7 +772,8 @@
     <MESSAGE value="Fixed Chapter 23 swipe.html to remove unrequired script references&#10;Initialized Chapter 24 Services for Provision and Injection and completed listing 1" />
     <MESSAGE value="Chapter 24 Services for Provision and Injection and completed listing 2" />
     <MESSAGE value="Chapter 24 Services for Provision and Injection and completed listing 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 24 Services for Provision and Injection and completed listing 3" />
+    <MESSAGE value="Chapter 24 Services for Provision and Injection and completed listing 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 24 Services for Provision and Injection and completed listing 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,8 +1142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter24/components.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6594324" vertical-offset="166" max-vertical-offset="816">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37562606" vertical-offset="166" max-vertical-offset="816">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>
