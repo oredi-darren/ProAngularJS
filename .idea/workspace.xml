@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="308cad68-a780-4f88-a911-9196b4ba2005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter24/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter23/swipe.html" afterPath="$PROJECT_DIR$/chapter23/swipe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter24/components.html" afterPath="$PROJECT_DIR$/chapter24/components.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProAngularJS.iws" />
@@ -90,8 +89,8 @@
       <file leaf-file-name="components.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter24/components.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22113821" vertical-offset="0" max-vertical-offset="615">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.8230384" vertical-offset="153" max-vertical-offset="952">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -199,10 +198,9 @@
     <config-path />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1468" />
+    <option name="width" value="1474" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -262,20 +260,6 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProAngularJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProAngularJS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter23" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -300,21 +284,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="272" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="300" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="185" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="186" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="976" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="861" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="302" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="187" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="186" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="303" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="187" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="944" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="828" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="recentsLimit" value="5" />
   </component>
@@ -541,7 +525,7 @@
       <workItem from="1399503594839" duration="15489000" />
       <workItem from="1399588168644" duration="18076000" />
       <workItem from="1399846845592" duration="35000" />
-      <workItem from="1399846898619" duration="5672000" />
+      <workItem from="1399846898619" duration="8333000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit with chapter 1 completed">
       <created>1398157020694</created>
@@ -675,11 +659,19 @@
       <created>1399852063296</created>
       <updated>1399852063296</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fixed Chapter 23 swipe.html to remove unrequired script references&#10;Initialized Chapter 24 Services for Provision and Injection and completed listing 1">
+      <created>1399852693951</created>
+      <updated>1399852693952</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Chapter 24 Services for Provision and Injection and completed listing 2">
+      <created>1399935948411</created>
+      <updated>1399935948411</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153042000" />
+    <option name="totallyTimeSpent" value="155703000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -702,7 +694,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1468" y="0" width="1474" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -715,13 +707,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69325155" sideWeight="0.50527906" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30912864" sideWeight="0.49472097" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.314346" sideWeight="0.49472097" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27558258" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2237037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09734043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12905501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,8 +740,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Completed Orders Screen and Administration screens finishing chapter 8" />
-    <MESSAGE value="Completed Chapter 9 The Anatomy of an AngularJS App" />
     <MESSAGE value="Initialized Chapter 10 Using Binding and Template Directives" />
     <MESSAGE value="Completed Chapter 10 Using Binding and Template Directives" />
     <MESSAGE value="Initialized Chapter 11 Using Element and Event Directives" />
@@ -773,7 +763,9 @@
     <MESSAGE value="Initialized Chapter 23 Services for Animation and Touch, completed listing 4 parallel animation (incorrect)" />
     <MESSAGE value="Initialized Chapter 23 Services for Animation and Touch, completed listing 4 remove incorrect parallel animation" />
     <MESSAGE value="Completed Chapter 23 Services for Animation and Touch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Chapter 23 Services for Animation and Touch" />
+    <MESSAGE value="Fixed Chapter 23 swipe.html to remove unrequired script references&#10;Initialized Chapter 24 Services for Provision and Injection and completed listing 1" />
+    <MESSAGE value="Chapter 24 Services for Provision and Injection and completed listing 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 24 Services for Provision and Injection and completed listing 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1142,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter24/components.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22113821" vertical-offset="0" max-vertical-offset="615">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.8230384" vertical-offset="153" max-vertical-offset="952">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
