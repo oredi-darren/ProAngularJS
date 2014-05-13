@@ -3,7 +3,7 @@
  */
 describe("Controller Test", function () {
     // Arrange
-    var mockScope, controller, backend;
+    var mockScope, controller, backend, mockInterval, mockTimeout;
     beforeEach(angular.mock.module("exampleApp"));
     beforeEach(angular.mock.inject(function ($httpBackend) {
         backend = $httpBackend;
@@ -14,11 +14,15 @@ describe("Controller Test", function () {
                     { "name": "Pears", "category": "Fruit", "price": 2.02 }]);
     }));
 
-    beforeEach(angular.mock.inject(function ($controller, $rootScope, $http) {
+    beforeEach(angular.mock.inject(function ($controller, $rootScope, $http, $interval, $timeout) {
         mockScope = $rootScope.$new();
+        mockInterval = $interval;
+        mockTimeout = $timeout;
         controller = $controller("defaultCtrl", {
             $scope: mockScope,
-            $http: $http
+            $http: $http,
+            $interval: mockInterval,
+            $timeout: mockTimeout
         });
         backend.flush();
     }));
@@ -46,5 +50,17 @@ describe("Controller Test", function () {
         expect(mockScope.products[0].name).toEqual("Apples");
         expect(mockScope.products[1].name).toEqual("Bananas");
         expect(mockScope.products[2].name).toEqual("Pears");
+    });
+
+    it("Limits interval to 10 updates", function () {
+        for (var i = 0; i < 11; i++) {
+            mockInterval.flush(5000);
+        }
+        expect(mockScope.intervalCounter).toEqual(10);
+    });
+
+    it("Increments timer counter", function () {
+        mockTimeout.flush(5000);
+        expect(mockScope.timerCounter).toEqual(1);
     });
 });
